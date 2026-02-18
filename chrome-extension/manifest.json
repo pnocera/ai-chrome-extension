@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "AI Studio Markdown Export",
+  "version": "2.8.0",
+  "description": "Exports Google AI Studio conversations to Markdown with XHR and DOM extraction modes.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://aistudio.google.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

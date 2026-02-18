@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Studio Export Options</title>
+  <link rel="stylesheet" href="ui.css">
+</head>
+<body>
+  <main class="panel panel-options" data-page="options">
+    <h1>AI Studio Export Options</h1>
+
+    <section>
+      <h2>Include</h2>
+      <label><input id="include-user" type="checkbox"> User messages</label>
+      <label><input id="include-model" type="checkbox"> Model messages</label>
+      <label><input id="include-thinking" type="checkbox"> Thinking blocks</label>
+      <label><input id="collapsible-thinking" type="checkbox"> Collapsible thinking blocks</label>
+    </section>
+
+    <section>
+      <h2>Extraction Method</h2>
+      <label><input id="mode-xhr" name="mode" type="radio" value="xhr"> XHR (recommended)</label>
+      <label><input id="mode-dom" name="mode" type="radio" value="dom"> DOM (fallback)</label>
+    </section>
+
+    <section class="footer">
+      <button id="open-options" type="button" disabled>You are in options</button>
+      <span id="status" aria-live="polite"></span>
+    </section>
+  </main>
+  <script src="ui.js"></script>
+</body>
+</html>
