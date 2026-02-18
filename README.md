@@ -9,6 +9,10 @@
 
 ## Notes
 
-
 - Settings persistence now uses `chrome.storage.local`.
 - Extension settings are available in both the toolbar popup and `chrome://extensions` -> Details -> Extension options.
+
+## Links
+
+- GitHub: https://github.com/pnocera/ai-chrome-extension
+- Ko-fi: https://ko-fi.com/piero78497

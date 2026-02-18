@@ -1476,7 +1476,7 @@
             // Support link
             const supportLink = document.createElement('a');
             supportLink.className = 'support-link';
-            supportLink.href = 'https://ko-fi.com/piknockyou';
+            supportLink.href = 'https://ko-fi.com/piero78497';
             supportLink.target = '_blank';
             supportLink.rel = 'noopener noreferrer';
             supportLink.title = 'Support this script on Ko-Fi';
